@@ -6,7 +6,6 @@ import pprint
 #22 BASE_URL = 'http://www.pythonscraping.com'
 BASE_URL = 'http://www.pythonscraping.com'
 
-
 def create_list_from_table(table_tag):
 
     # CSV 파일로 만들기 위해서 2중 리스트 생성
