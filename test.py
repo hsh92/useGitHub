@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 import pprint
 
+#22 BASE_URL = 'http://www.pythonscraping.com'
 BASE_URL = 'http://www.pythonscraping.com'
 
 
@@ -41,10 +42,6 @@ def create_csv_file(lol, filename):
         writer = csv.writer(file)
         for l in lol:
             writer.writerow(l)
-
-
-
-
 
 def main():
     res = requests.get(BASE_URL + '/pages/page3.html')
