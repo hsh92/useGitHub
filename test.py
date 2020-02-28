@@ -43,6 +43,9 @@ def create_csv_file(lol, filename):
             writer.writerow(l)
 
 
+
+
+
 def main():
     res = requests.get(BASE_URL + '/pages/page3.html')
     soup = BeautifulSoup(res.text, 'html.parser')
